@@ -20,12 +20,7 @@ export function CatEventList() {
             </tr>
             </thead>
             <tbody data-testid="table-body">
-            {events.map((event, i) =>
-                <tr key={i}>
-                    <td>{event.user}</td>
-                    <td>{event.text}</td>
-                    <td>{event.source}</td>
-                </tr>)}
+
             </tbody>
         </table>
     );
